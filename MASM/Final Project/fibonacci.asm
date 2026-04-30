@@ -11,7 +11,6 @@ Fibonacci PROC
     mov ebp, esp
 
     push eax
-    push ebx
     push ecx
     push edx
 
@@ -52,7 +51,6 @@ SEQUENCE:
 DONE:
     pop edx
     pop ecx
-    pop ebx
     pop eax
     pop ebp
     ret
