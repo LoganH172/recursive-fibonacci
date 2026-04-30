@@ -1,9 +1,0 @@
-﻿  Assembling print.asm...
-fibonacci.obj : warning LNK4258: directive '/ENTRY:Fibonacci@0' not compatible with switch '/ENTRY:main'; ignored
-main.obj : warning LNK4258: directive '/ENTRY:main@0' not compatible with switch '/ENTRY:main'; ignored
-print.obj : warning LNK4258: directive '/ENTRY:PrintFibonacci@0' not compatible with switch '/ENTRY:main'; ignored
-  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
-fibonacci.obj : warning LNK4258: directive '/ENTRY:Fibonacci@0' not compatible with switch '/ENTRY:main'; ignored
-main.obj : warning LNK4258: directive '/ENTRY:main@0' not compatible with switch '/ENTRY:main'; ignored
-print.obj : warning LNK4258: directive '/ENTRY:PrintFibonacci@0' not compatible with switch '/ENTRY:main'; ignored
-  Final Project.vcxproj -> C:\Users\Logan\Desktop\CSCI 3371\Final Project\Release\Final Project.exe
