@@ -35,8 +35,8 @@ namespace ProjectC_
                 fibStore = fibArg1 + fibArg2;       //fibStore = 0 + 1 = 1 --> Calculate next position F(n-1)+F(n-2)=F(n), n=2
                 fibArray[fibIndex] = fibStore;      //Store 
                 fibIndex++;                         //Move index to next position
-                fibArg1 = fibArg2;                  //Assign fibArg1 (n-2) to fibArg2 (n-1) ---> Due to moving position this becomes (n-2)
-                fibArg2 = fibStore;                 //Assign fibArg2 (n-1) to fibStore (n) ---> Due to moving position this becomes (n-1)
+                fibArg1 = fibArg2;                  //Assign fibArg2 (n-1) to fibArg1 (n-2) ---> Due to moving position this becomes (n-2)
+                fibArg2 = fibStore;                 //Assign fibStore (n) to fibArg2 (n-1) ---> Due to moving position this becomes (n-1)
                 FibonacciMethod(ref fibArg1, ref fibArg2, ref fibIndex, ref fibArray);      //Recursive call
             }
             if (fibArg1 > 0 && fibIndex <= fibArray.Length-1)       //Check for recursive calls to ensure fibArg1 is not 0 and index is not OOB
